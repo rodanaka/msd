@@ -4,7 +4,7 @@ import pandas as pd
 import plotly.express as px
 from dash.dash_table import DataTable
 import calendar
-
+pip install openpyxl
 # Carregar o arquivo XLSX para um DataFrame
 df = pd.read_excel('tabelaa.xlsx')
 
