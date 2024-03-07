@@ -22,7 +22,7 @@ contagem = contagem.rename(
 
 # Criar o aplicativo Dash
 app = dash.Dash(__name__)
-
+server = app.server
 # Layout do aplicativo
 app.layout = html.Div(style={'backgroundColor': '#e6ffe6'}, children=[
     html.Div([
